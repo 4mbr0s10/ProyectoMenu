@@ -69,24 +69,29 @@ public class GameManager {
         Timeline animationball;
     
     public GameManager (){
-        inicializarJuego();
-        
+       
+       
         
         
     }
     
     public void inicializarJuego (){
-        AnchorPane root = new AnchorPane();
+        Pane root = new Pane();
         Scene scene = new Scene(root,TAMX, TAMY, Color.BLACK);
-        String hpvida = String.valueOf(hp);
-            String hpvida2 = String.valueOf(hp2);
+      
            
-           Stage primaryStage = new Stage();
-            primaryStage.setTitle("This is a game i dont know");
-            primaryStage.setScene(scene);
-            primaryStage.show();
+           Stage gameStage = new Stage();
+            gameStage.setTitle("This is a game i dont know");
+            gameStage.setScene(scene);
+            jugar(root, scene, gameStage);
+           gameStage.show();
 
-            Circle circleball = new Circle(10,30,7, Color.WHITE);
+    }
+    public void jugar(Pane root, Scene scene, Stage gameStage){
+           
+          String hpvida = String.valueOf(hp);
+            String hpvida2 = String.valueOf(hp2);
+        Circle circleball = new Circle(10,30,7, Color.WHITE);
             root.getChildren().add(circleball);
 
             Rectangle rect = new Rectangle(500,stickPosY, STICK_ANCHO, STICK_ALTURA);
@@ -299,3 +304,4 @@ public class GameManager {
         
     }
 }
+
