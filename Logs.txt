@@ -1,0 +1,128 @@
+[Tu respuesta: a
+Fue la opción: incorrecta
+La pregunta fue: Se trata con la misma clase la escritura y la lectura? 
+a)Si. 
+b)No es obligatorio. 
+c)No.
+Con el código: 28]
+[Tu respuesta: a
+Fue la opción: correcta
+La pregunta fue: Formato de un fichero de Bytes? 
+a).dat. 
+b).txt. 
+c).sql. 
+d).doc. 
+Con el código: 23]
+[Tu respuesta: c
+Fue la opción: correcta
+La pregunta fue: Que tipos de ficheros hemos dado? 
+a)Texto. 
+b)Bytes. 
+c)Texto y Bytes. 
+d)Texto y Numericos
+Con el código: 30]
+[Tu respuesta: b
+Fue la opción: incorrecta
+La pregunta fue: Como comparamos (por ejemplo en un if) dos Strings? 
+a)Con un ==. 
+b)Con un compareTo(). 
+c)No se puede. 
+d)Con equals()
+Con el código: 19]
+[Tu respuesta: d
+Fue la opción: correcta
+La pregunta fue: Cual es la forma incorrecta de pasar un string a minusculas? 
+a)tolowerCase(). 
+b)tolowercase(). 
+c)ToLowerCase(). 
+d).Ninguna es correcta
+Con el código: 16]
+[Tu respuesta: c
+Fue la opción: correcta
+La pregunta fue: Se puede hacer casteo de byte a short? 
+a)Si. 
+b)No. 
+c)No es obligatorio pero puedes.
+Con el código: 10]
+[Tu respuesta: b
+Fue la opción: incorrecta
+La pregunta fue: Se puede hacer casteo de short a long? 
+a)Si. 
+b)No. 
+c)No es obligatorio pero puedes. 
+Con el código: 8]
+[Tu respuesta: c
+Fue la opción: correcta
+La pregunta fue: Que tipos de ficheros hemos dado? 
+a)Texto. 
+b)Bytes. 
+c)Texto y Bytes. 
+d)Texto y Numericos
+Con el código: 30]
+[Tu respuesta: b
+Fue la opción: incorrecta
+La pregunta fue: Se puede hacer casteo de long a int? 
+a)Si. 
+b)No. 
+c)No es obligatorio pero puedes. 
+Con el código: 7]
+[Tu respuesta: b
+Fue la opción: incorrecta
+La pregunta fue: Se puede hacer casteo de long a short? 
+a)Si. 
+b)No. 
+c)No es obligatorio pero puedes.
+Con el código: 9]
+[Tu respuesta: b
+Fue la opción: incorrecta
+La pregunta fue: Se puede hacer casteo de int a long? 
+a)Si. 
+b)No. 
+c)No es obligatorio pero puedes. 
+Con el código: 6]
+[Tu respuesta: a
+Fue la opción: incorrecta
+La pregunta fue: Se puede hacer casteo de int a double? 
+a)Si. 
+b)No. 
+c)No es obligatorio pero puedes.
+Con el código: 1]
+[Tu respuesta: d
+Fue la opción: correcta
+La pregunta fue: Cual es la forma incorrecta de pasar un string a minusculas? 
+a)tolowerCase(). 
+b)tolowercase(). 
+c)ToLowerCase(). 
+d).Ninguna es correcta
+Con el código: 16]
+[Tu respuesta: a
+Fue la opción: incorrecta
+La pregunta fue: Se puede hacer casteo de int a double? 
+a)Si. 
+b)No. 
+c)No es obligatorio pero puedes.
+Con el código: 1]
+[Tu respuesta: b
+Fue la opción: incorrecta
+La pregunta fue: Como se llama la comunicación entre el origen y el destino de un Fichero? 
+a)Flujo o Stream. 
+b)Flujo. 
+c)No tiene nombre 
+d)Stream.
+Con el código: 21]
+[Tu respuesta: d
+Fue la opción: correcta
+La pregunta fue: Cual es la forma incorrecta de pasar un string a mayusculas? 
+a)toupperCase(). 
+b)touppercase(). 
+c)ToUpperCase(). 
+d).Ninguna es correcta
+Con el código: 17]
+[Tu respuesta: c
+Fue la opción: correcta
+La pregunta fue: Que pasa si intentamos escribir en un archivo inexistente? 
+a)Rompe el programa. 
+b)No pasa nada. 
+c)Lo crea. 
+d)Lo crea pero salta error.
+Con el código: 29]
