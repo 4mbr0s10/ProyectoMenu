@@ -37,7 +37,7 @@ public class ViewManager {
     private Stage mainStage;
     
     private final static int MENU_BOTONES_INICIAL_X=100;
-    private final static int MENU_BOTONES_INICIAL_Y=650;
+    private final static int MENU_BOTONES_INICIAL_Y=600;
     private ExcSubEscenas subScenaCreditos;
     private ExcSubEscenas subScenaAyuda;
     private ExcSubEscenas subElegirJuego;
@@ -52,7 +52,7 @@ public class ViewManager {
         crearSubScenas();
         crearBoton();
         crearFondo();
-        crearImagenFondoExtra();
+//        crearImagenFondoExtra();
         
        
     }
@@ -95,6 +95,8 @@ public class ViewManager {
      crearBotonAyuda();
      crearBotonCreditos();
      crearBotonSalir();
+     crearBotonExtraPong();
+     crearBotonExtraPong2();
     }
     private void crearBotonInicio (){
         JuegoBotones botonInicio = new JuegoBotones("JUGAR");
@@ -141,6 +143,39 @@ public class ViewManager {
             @Override
             public void handle(ActionEvent event) {
               mainStage.close();
+            }
+        });
+        
+    }
+       
+            private void crearBotonExtraPong (){
+        JuegoBotones botonExtraPong = new JuegoBotones("PONG SP");
+       botonExtraPong.setLayoutX(281);
+       botonExtraPong.setLayoutY(680);
+       botonExtraPong.setScaleX(1.2);
+       botonExtraPong.setStyle("-fx-background-color: transparent; -fx-background-image: url('/modelado/recursos/yellow_button00.png');");
+         mainPane.getChildren().add(botonExtraPong);
+        botonExtraPong.setOnAction(new EventHandler<ActionEvent>() {
+            @Override
+            public void handle(ActionEvent event) {
+              
+            }
+        });
+        
+    }
+         private void crearBotonExtraPong2 (){
+        JuegoBotones botonExtraPong2 = new JuegoBotones("PONG MP");
+    
+      botonExtraPong2.setLayoutX(521);
+      botonExtraPong2.setLayoutY(680);
+      botonExtraPong2.setScaleX(1.2);
+      botonExtraPong2.setStyle("-fx-background-color: transparent; -fx-background-image: url('/modelado/recursos/yellow_button00.png');");
+        mainPane.getChildren().add(botonExtraPong2);
+        
+        botonExtraPong2.setOnAction(new EventHandler<ActionEvent>() {
+            @Override
+            public void handle(ActionEvent event) {
+              
             }
         });
         
